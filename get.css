@@ -9,11 +9,12 @@ body{
 
 .header-menu{
     display: flex;
-    width: 90vw;
+    width: 85vw;
     margin: 0 auto;
     flex-direction: row;
     padding:30px 0;
     position: fixed;
+    background-color: blur(100%);
     justify-content: space-between;
     top: 0;
     left: 0;
@@ -30,9 +31,9 @@ body{
 
 .mobile-nav{
     display: none;
-    width: 100vw;
+    width: 90vw;
     justify-content: space-between;
-    background-color: blur;
+    background-color: blur(100%);
 }
 
   .logo{cursor: pointer;
@@ -192,6 +193,7 @@ gap: 25px;
  .signup-a{
     font-size: 19px;
     font-weight: 500;
+    width: 70%;
     padding: 15px 18px;
     background-color: #FBE306;
     color: black;
@@ -218,15 +220,15 @@ gap: 25px;
  }
 
 
- @media (max-width: 450px) {
+ @media (max-width: 500px) {
     .headline{
-        width: 420px;
+        width: 80%;
         font-weight: 700;
-        font-size: 38px;
+        font-size: 450px;
 
     }
 
-    .p{width: 100px;
+    .p{width: 300px;
         font-size: 14px;
         padding-top: 50px;
 
@@ -240,26 +242,27 @@ gap: 25px;
         display: none;
     }
     .headline{
-        width: 470px;
-        font-size:43px;
-        padding-top: 20px;
+        width: 70%;
+        font-size:35px;
+        padding-top: 18px;
     }
 
     .mobile-nav {
         display: flex;
-        width: 100vw;
+        width: 70vw;
         align-items: center;
+        justify-content: space-between;
         padding: 0;
 
     }
 
     .p{
-        width: 450px;
+        width: 76%;
         padding-top: 7px;
         font-size: 17px;
     }
 
-    .sign-up-a{
-        padding-bottom: 5px;
+    .signup-a{width: 70%;
+        
     }
 }
