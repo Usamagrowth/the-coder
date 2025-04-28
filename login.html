@@ -14,14 +14,21 @@
     <div class="top-div">
         <img class="logo" src="asset/login-logo.png" alt="Login logo">
     <div class="admin-login">
-    <form class="form">
+    <form class="form" action="https://google.com">
             <h3 class="header">Admin Login</h3>
-        <input  class="email" type="email" placeholder=" Enter Your Email">
-        <i class="fa-solid fa-envelope" class="message"></i>
-        <input class="password" type="password" placeholder=" Enter Password">
-        <i class="fa-solid fa-lock" class="lock"></i>
-         <button class="btn"><a class="go" href="https://google.com">Sign in</a></button>
+            <label for="email">
+                <input  class="form-input" type="email" placeholder=" Enter Your Email">
+                <i class="fa-solid fa-envelope form-icon"></i>
+            </label>
+        <label for="password">
+            <input class="form-input" type="password" placeholder=" Enter Password">
+            <i class="fa-solid fa-lock form-icon" class="form-icon"></i>
+        </label>
+         <button class="btn" type="submit">Sign in</button>
+         <div class="forget-password">
+         <i class="fa fa-key "></i>
        <p class="forget">Forget Password</p>
+         </div>
     </form>
 </div>
 </div>
